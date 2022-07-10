@@ -34,7 +34,7 @@ class Focus(QWidget):
         """
         self.showFullScreen()
         self.setWindowTitle('Yan Focus!!!')
-        self.setStyleSheet("background-color:#000000;")
+        self.setStyleSheet("background-color:#000000;color:#ffffff;")
         self.show()
 
         self.lcd = QLabel()
